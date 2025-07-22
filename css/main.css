@@ -12,3 +12,9 @@ a {
   color: #333;
   text-decoration: none;
 }
+/* 전체 레이아웃 */
+.wrap {
+  width: 960px;
+  background-color: antiquewhite;
+  margin: auto;
+}
