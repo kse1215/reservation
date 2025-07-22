@@ -57,3 +57,15 @@ a {
     padding: 20px;
     background-color: #ccc;
 }
+#intro:target{
+    color: #fafafa;
+    background-color: #728aa0;
+}
+#room:target{
+    color: #fafafa;
+    background-color: #728aa0;
+}
+#reservaion:target{
+    color: #fafafa;
+    background-color: #728aa0;
+}
