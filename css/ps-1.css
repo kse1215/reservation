@@ -41,3 +41,47 @@ a {
   color: #fafafa;
   background-color: #728aa0;
 }
+/* 예약하기 */
+#singUp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  /* background-color: #728aa0; */
+}
+#singUp fieldset {
+  padding: 20px;
+  border: 1px solid #df3d3d;
+}
+#singUp fieldset legend {
+  font-size: 13px;
+  padding: 0 10px;
+}
+#singUp li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+.user label{
+  width: 60px;
+  display: inline-block;
+}
+.user input{
+  width: 100%;
+  padding: 10px;
+}
+/* #singup fieldset:first-of-type li label{
+    width: 60px;
+    display: inline-block;
+}
+#singup fieldset:first-of-type li input{
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+}
+#singup fieldset:last-of-type li input{
+  margin-right: 10px;
+} */
