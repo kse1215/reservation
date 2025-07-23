@@ -1,46 +1,5 @@
 @charset "utf-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-ul,
-li {
-  list-style: none;
-}
-a {
-  color: #333;
-  text-decoration: none;
-}
-/* 전체 레이아웃 */
-.wrap {
-  width: 960px;
-  margin: auto;
-}
-/* 메뉴 */
-.navi {
-  padding: 10px 0;
-  border-bottom: 1px solid #333;
-  background-color: #fff;
-}
-.navi ul {
-  display: flex;
-  margin: auto;
-  width: 600px;
-  background-color: #bed6eb;
-}
-.navi ul li {
-  width: calc(100% / 4);
-  text-align: center;
-}
-.navi ul li a {
-  display: block;
-  line-height: 60px;
-}
-.navi ul li a:hover {
-  color: #fafafa;
-  background-color: #728aa0;
-}
+@import url("main.css");
 /* 예약하기 */
 #singUp {
   display: flex;
@@ -53,7 +12,8 @@ a {
 }
 #singUp fieldset {
   padding: 20px;
-  border: 1px solid #df3d3d;
+  border: 1px solid #6485a3;
+  border-radius: 8px;
 }
 #singUp fieldset legend {
   font-size: 13px;
@@ -72,6 +32,8 @@ a {
 .user input{
   width: 100%;
   padding: 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
 }
 /* #singup fieldset:first-of-type li label{
     width: 60px;
